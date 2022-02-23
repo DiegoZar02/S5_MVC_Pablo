@@ -1,0 +1,29 @@
+{
+  "name": "listadocomprasmvc",
+  "version": "1.0.0",
+  "description": "Express App",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandoRaxel/ListadoComprasMVC.git"
+  },
+  "type": "module",
+  "author": "UPC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandoRaxel/ListadoComprasMVC/issues"
+  },
+  "homepage": "https://github.com/BrandoRaxel/ListadoComprasMVC#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
